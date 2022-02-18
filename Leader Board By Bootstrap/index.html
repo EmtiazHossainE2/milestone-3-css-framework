@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader Board Using Bootstrap 5 </title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/526e89685c.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS v5.1.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/icons/logo.png" type="image/x-icon">
+    <style>
+        :root {
+            --clock-color : #FF4A60;
+            --icon-color : #FFC014;
+        }
+    </style>
+
+</head>
+<body style="background-color: #E5E5E5;">
+    <!-- navigation area  -->
+    <header >
+        <nav class=" navbar navbar-expand-lg navbar-dark" style="background-color: #562EFF; " >
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="images/icons/logo.png" alt="" width="41" height="51" class="d-inline-block align-text-top">
+                    <span class="ms-3">Idea</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-light " aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link  text-light" aria-current="page" href="#">Works</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link " aria-current="page" href="#">
+                            <img src="images/icons/profile.png" alt=""  width="51" height="51" class="d-inline-block align-text-top" >
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Top Area  -->
+        <section>
+            <div class="container my-4 pb-3 bg-light rounded">
+                <!-- top players  -->
+                <div class="">
+                    <h3 class="text-primary py-3 m-3">Top Player</h3>
+                    <div class="row gy-4 pb-4 ps-3">
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center">
+                            <img  width="56" height="56" src="images/players/player-1.png" alt="">
+                            <h5 class="ms-3">Jhon Doe</h5>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center">
+                            <img  width="56" height="56" src="images/players/player-2.png" alt="">
+                            <h5 class="ms-3">Nobita</h5>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center">
+                            <img  width="56" height="56" src="images/players/player-3.png" alt="">
+                            <h5 class="ms-3">Alon Musk</h5>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center">
+                            <img  width="56" height="56" src="images/players/player-4.png" alt="">
+                            <h5 class="ms-3">Yeahoo Baba</h5>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center">
+                            <img  width="56" height="56" src="images/players/player-5.png" alt="">
+                            <h5 class="ms-3">Rohim Mia</h5>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-flex align-items-center">
+                            <img  width="56" height="56" src="images/players/player-6.png" alt="">
+                            <h5 class="ms-3">Korim Khan</h5>
+                        </div>
+                    </div>
+                </div>
+                <hr style="border: 0; 
+                    height: 1px; 
+                    background-image: -webkit-linear-gradient(left, #f0f0f0, #b8aaaa, #f0f0f0);
+                    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+                    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+                    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);">
+                <!-- top players end   -->
+                <!-- top blogs start -->
+                <div>
+                    <h3 class="text-primary py-3 m-3">Top Blogs</h3>
+                    <div>
+                        <div class="row gy-4">
+                            <div class="col-md-12 col-lg-6 ">
+                                <div class="row flex justify-content-evenly">
+                                    <div class="col-12 col-md-4 ">
+                                        <img class="img-fluid" src="images/blogs/blog-2.png" alt="">
+                                    </div>
+                                    <div class=" col-12 col-md-6 ">
+                                        <h4 class="py-3">UI cheat sheet: <br> list vs grids</h4>
+                                        <p class="text-secondary">By <a class="text-decoration-none" href="#">Tess Gadd</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6 ">
+                                <div class="row flex justify-content-evenly">
+                                    <div class="col-12 col-md-4 ">
+                                        <img class="img-fluid" src="images/blogs/blog-1.png" alt="">
+                                    </div>
+                                    <div class=" col-12 col-md-6 ">
+                                        <h4 class="py-3">13 of My Favorite <br> UI/UX Goodies</h4>
+                                        <p class="text-secondary">By <a class="text-decoration-none" href="#">Jhon Doe</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6 ">
+                                <div class="row flex justify-content-evenly">
+                                    <div class="col-12 col-md-4 ">
+                                        <img class="img-fluid" src="images/blogs/blog-3.png" alt="">
+                                    </div>
+                                    <div class=" col-12 col-md-6 ">
+                                        <h4 class="py-3">7 typography tips <br> for interface design</h4>
+                                        <p class="text-secondary">By <a class="text-decoration-none" href="#">Jeremiah Lam</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6 ">
+                                <div class="row flex justify-content-evenly">
+                                    <div class="col-12 col-md-4 ">
+                                        <img class="img-fluid"  src="images/blogs/blog-4.png" alt="">
+                                    </div>
+                                    <div class=" col-12 col-md-6 ">
+                                        <h4 class="py-3">Your logo is <br> Copied</h4>
+                                        <p class="text-secondary">By <a class="text-decoration-none" href="#">Ferdinand Vogler</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- top blogs end -->
+    
+            </div>
+        </section>
+
+        <!-- Latest Course area  -->
+        <section class="container my-3 bg-light rounded">
+            <h3 class="text-primary py-3 m-3 ">Latest Course</h3>
+            <div class="row m-2 g-3">
+                <!-- single course  -->
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="shadow-sm rounded p-3">
+                        <img class="img-fluid" src="images/courses/course-1.png" alt="">
+                        <div class="my-3">
+                            <h4 >React - The Complete <br> Guide 2022</h4> 
+                            <p class="text-danger">Reed Krakoff.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex ">
+                                <div style="color: var(--icon-color);">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <p class="px-3">4.5</p>
+                                <div style="color: var(--clock-color);">
+                                    <i class="far fa-clock"></i> 01:30hr
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / single course  -->
+                <!-- single course  -->
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="shadow-sm rounded p-3">
+                        <img class="img-fluid" src="images/courses/course-2.png" alt="">
+                        <div class="my-3">
+                            <h4 >React - The Complete <br> Guide 2022</h4> 
+                            <p class="text-danger">Reed Krakoff.</p>
+                        </div>
+                        <div>
+                            <div class="d-flex ">
+                                <div style="color: var(--icon-color);">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <p class="px-3">4.5</p>
+                                <div style="color: var(--clock-color);">
+                                    <i class="far fa-clock"></i> 01:30hr
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /single course  -->
+                <!-- single course  -->
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="shadow-sm rounded p-3">
+                        <img class="img-fluid" src="images/courses/course-3.png" alt="">
+                        <div class="my-3">
+                            <h4 >The Complete JavaScript  <br> Course 2022</h4> 
+                            <p class="text-danger">Reed Krakoff.</p>
+                        </div>
+                        <div>
+                            <div class="d-flex ">
+                                <div style="color: var(--icon-color);">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <p class="px-3">4.5</p>
+                                <div style="color: var(--clock-color);">
+                                    <i class="far fa-clock"></i> 01:30hr
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /single course  -->
+                
+            </div>
+
+        </section>
+    </main>
+    
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

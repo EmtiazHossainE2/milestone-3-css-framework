@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tailwind Css</title>
+        <!-- Tailwind Css  -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                     extend: {
+                          colors: { 
+                            clifford: "#da373d" ,
+                        } 
+                        } 
+                    },
+            };
+        </script>
+    </head>
+    <body>
+        <h1 class="text-warning">Learning Tailwind Css</h1>
+        <p class="bg-orange-500">Lorem ipsum dolor sit amet.</p>
+        <button class="bg-orange-300 px-4 py-2 rounded text-white">
+        Click here
+        </button>
+    </body>
+</html>
